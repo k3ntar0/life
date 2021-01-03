@@ -1,0 +1,31 @@
+@startuml
+title Night Habits [120min]
+start
+:9PMになる;
+if (帰宅している) then (true)
+    :3Fに上がる;
+else (false)
+    :すぐに帰る;
+    kill
+endif
+:"窓を開ける";
+if (はとちゃんがいる) then (true)
+    :はとちゃんと筋トレする;
+    note left: 20分
+else (false)
+    :きんに君の動画を再生する;
+endif
+:プロテイン・サプリメントを飲む;
+:お風呂に湯を入れる;
+:振り返りとスケジューリング;
+note right: お風呂を待つ時間で
+:3Fに行って着替える;
+note left: お風呂が沸いたら
+:窓を閉めて暖房を付ける;
+:お風呂に入る;
+note right: 25分
+:本を読む;
+note right: 45分
+:布団に入る;
+stop
+@enduml

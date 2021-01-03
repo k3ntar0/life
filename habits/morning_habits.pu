@@ -1,0 +1,25 @@
+@startuml
+title Morning Habits [60min]
+start
+:起床; 
+:ダウンに着替える;
+:2Fに降りる;
+:口を濯いで水を飲む;
+if (9AM以前？ && 雨ではない？) then (true)
+    :ランニングに行く;
+    note left
+    ご褒美に
+    お茶菓子を買う
+    end note
+else (false)
+    :スクワットを30回する;
+Endif
+:お湯を沸かす;
+:読書をする;
+note right: お湯が沸くのを待つ時間で
+:紅茶を淹れる;
+:NotionのDiaryを立ち上げる;
+:Google Calendarを確認・調整する;
+note right: 紅茶を飲みながら
+stop
+@enduml
