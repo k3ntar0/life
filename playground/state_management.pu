@@ -1,7 +1,7 @@
 @startuml
 title Afternoon Habits [30min]
 start
-->2PM;
+:2PMになる;
 :イヤホンをつける;
 :YouTubeで10-20分瞑想の音源を再生する;
 if (一人になれる場所があるか？) then (true)
